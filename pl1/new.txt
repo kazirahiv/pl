@@ -1,0 +1,6 @@
+This is how any modern operating system works: you have the kernel dealing with the hardware, and the shell dealing with you, the user, and the applications you launch.So a operating system is Debian, CentOS, Ubuntu, Redhat. 
+
+
+All of them use the Linux kernel, so we call them Debian Linux, CentOS Linux, Ubuntu Linux, or RedHat Linux.
+
+And that’s why you used to find also Debian Hurd.

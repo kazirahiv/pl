@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<string.h>
+#include<
+int main(){
+int i;
+char letter[5] = "rahiv";
+int temp;
+for(i=0; i<=5; i++){
+if(letter[i]>='a' && letter[i]<='z'){
+temp = letter[i]-32;
+printf("%c ", itoa(temp));
+
+}
+
+
+}
+}

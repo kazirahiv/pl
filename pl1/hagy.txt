@@ -1,0 +1,24 @@
+	
+I have the following code:
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main()
+{
+   char p[5];
+   char q[]="Hello";
+   int i=0;
+
+   strcpy(p,"Hello");
+   printf("strlen(p)=%d\n",strlen(p));
+   printf("sizeof(p)=%d\n",sizeof(p));
+   printf("strlen(q)=%d\n",strlen(q));
+   printf("sizeof(q)=%d\n",sizeof(q));
+   for(i=0;i<6;i++)
+   {
+      printf("p[%d]=%c\tq[%d]=%c\n",i,p[i],i,q[i]);
+   }
+   return 0;
+}
