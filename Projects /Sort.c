@@ -1,5 +1,5 @@
  /*
- This code takes integer command line arguments in ascending order and rearranges them is descending order. 
+ This code takes integer command line arguments in ascending order and rearranges them in descending order. 
  */
 #include<stdio.h>
 #include<stdlib.h>
