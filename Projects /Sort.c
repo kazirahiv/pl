@@ -1,3 +1,6 @@
+ /*
+ This code takes integer command line arguments in ascending order and rearranges them in descending order. 
+ */
 #include<stdio.h>
 #include<stdlib.h>
 int main(int argc, char *argv[]){
