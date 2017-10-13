@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    printf("Press (1) For Video Download and\n      (2) For Mp3 Download.\n      (3) For a Entire Playlist Download\n");
+    printf("Press (1) For Video Download and\n      (2) For Mp3 Download.\n      (3) For a Entire Playlist Download\n      (4) For installing youtube-dl on your system\n");
     int button;
     scanf("%d", &button);
     if(button==1){
@@ -30,6 +30,9 @@ int main(){
         printf("Downloading Playlist....\n");
         system(ydlp);
         }
+    if(button==4){
+        system("sudo apt-get install youtube-dl");
+    }
 
 
     }
