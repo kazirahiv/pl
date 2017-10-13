@@ -1,3 +1,8 @@
+/* This script is for downloading youtube video with the help of youtube-dl.
+    Usage: Install youtube-dl on your Linux/Unix based system, make sure it 
+    is available via bash/terminal.Then compile it an run the binary of it, 
+    by typing ./zack in the current directory in terminal and voila ! 
+*/
 #include<stdio.h>
 int main(){
     printf("Press (1) For Video Download and\n      (2) For Mp3 Download.\n      (3) For a Entire Playlist Download\n");
