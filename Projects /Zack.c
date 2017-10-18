@@ -27,8 +27,8 @@ int main(){
         system(ydlc);
         }
     if(button==3){
-        char ydlp[100]="youtube-dl -t ";
-        char link[100];
+        char ydlp[150]="youtube-dl -t ";
+        char link[150];
         printf("Enter link-> ");
         scanf("%s", link);
         strcat(ydlp, link);

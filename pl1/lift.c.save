@@ -1,5 +1,0 @@
-#include<stdio.h>
-int main(){
-int up, lp, case1, case2, case3;
-scanf("%d %d", &up, &lp);
-case1 = 
