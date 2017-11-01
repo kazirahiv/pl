@@ -1,1 +1,1 @@
-This repository is for my programming language class(C++)
+This repository is for my programming language classes (C/C++)
